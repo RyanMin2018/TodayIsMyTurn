@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">오늘은 내 차례</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Dolgamza Studio</string>
+    <string name="nav_header_subtitle">dolgamza@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- drawer menu -->
+    <string name="menu_title_codescan">코드스캐너</string>
+
+    <!-- permission -->
+    <string name="permission_camera">카메라 사용 제한을 해제하세요.</string>
+
+    <!-- network -->
+    <string name="msg_not_connect">인터넷에 접속할 수 없어요.</string>
+
+    <!-- qr code -->
+    <string name="qrscan_info">사각영역에 코드를 가져가면 자동으로 인식됩니다</string>
+    <string name="qrscan_button">확인</string>
+    <string name="qrscan_complete">스캔되었습니다</string>
+    <string name="qrscan_error">카메라를 이용하실 수 없습니다</string>
+    <string name="qrscan_nocode">코드를 찾지 못했습니다</string>
+
+    <!-- shared image -->
+    <string name="share">공유</string>
+    <string name="check_shared_image">공유된 이미지를 검사하고 있습니다</string>
+
+    <!-- version control -->
+    <string name="version_new_notify">새로운 버전이 왔네요. 다운받아보실래요?</string>
+
+    <!-- unused -->
+    <string name="scrap_msg_ask_save">저장할까요?</string>
+    <string name="scrap_msg_saving">잠시만 기다려 주세요</string>
+    <string name="scrap_msg_save_ok">저장되었습니다</string>
+    <string name="scrap_msg_save_fail">스크랩하지 못했습니다</string>
+    <string name="msg_no_voice">음성인식기능을 찾지 못했습니다</string>
+    <string name="msg_voice_prepared">음성출력이 준비되었습니다</string>
+
+    <!-- wifi auto-connect -->
+    <string name='wifi_auto_connecting'>자동 Wi-Fi접속을 진행 중입니다</string>
+    <string name="wifi_conected">Wi-Fi에 연결되었습니다</string>
+
+</resources>

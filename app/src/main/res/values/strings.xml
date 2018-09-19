@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Today\'s My Turn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Dolgamza Studio</string>
+    <string name="nav_header_subtitle">dolgamza@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- drawer menu -->
+    <string name="menu_title_codescan">Code Scanner</string>
+
+    <!-- permission -->
+    <string name="permission_camera">It is not available.\nYou have blocked access to the camera.</string>
+
+    <!-- network -->
+    <string name="msg_not_connect">Unable to connect to network.</string>
+
+    <!-- qr code -->
+    <string name="qrscan_info">Automatically recognizes rectangular areas when they are aligned to a barcode.</string>
+    <string name="qrscan_button">Confirm</string>
+    <string name="qrscan_complete">Scanned.</string>
+    <string name="qrscan_error">Camera not available.</string>
+    <string name="qrscan_nocode">Code not found.</string>
+
+    <!-- shared image -->
+    <string name="share">Share</string>
+    <string name="check_shared_image">Check Shared Image.</string>
+
+    <!-- version control -->
+    <string name="version_new_notify">There\'s a new version. Do you want to download?</string>
+
+    <!-- unused -->
+    <string name="scrap_msg_ask_save">Do you want to save the current screen as an image?\nThis operation takes some time and may not be stored correctly depending on the status of the terminal.</string>
+    <string name="scrap_msg_saving">The screen is saved as an image. Please wait.</string>
+    <string name="scrap_msg_save_ok">Screen has been scrapped.</string>
+    <string name="scrap_msg_save_fail">Failed to scrape screen.</string>
+    <string name="msg_no_voice">There is no voice recognition function, or the sound can not be confirmed.</string>
+    <string name="msg_voice_prepared">Audio output is being prepared.</string>
+
+    <!-- wifi auto-connect -->
+    <string name='wifi_auto_connecting'>Automatic Wi-Fi connection is in progress.</string>
+    <string name="wifi_conected">Connected to Wifi.</string>
+
+</resources>

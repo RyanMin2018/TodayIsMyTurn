@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#4d95e8</color>
+    <color name="colorWindowBackground">#ffffff</color>
+
+    <color name="transparent">#00000000</color>
+    <!-- for subview -->
+    <color name="sub_actionbar_background">#ffffff</color>
+    <!-- for memo -->
+    <color name="memo_tool_background">#ff0000</color>
+
+</resources>
