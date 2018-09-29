@@ -19,8 +19,13 @@ public class NetworkConnectUtil {
 	   * @return connected or not
 	   */
 	  public static boolean isNetworkConnect(Context con) {
-	    ConnectivityManager cm = (ConnectivityManager)con.getSystemService(Context.CONNECTIVITY_SERVICE);
-	    return (Objects.requireNonNull(cm).getNetworkInfo(ConnectivityManager.TYPE_MOBILE).isConnected() || cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI).isConnected());
+	  	try {
+			ConnectivityManager cm = (ConnectivityManager) con.getSystemService(Context.CONNECTIVITY_SERVICE);
+			return (Objects.requireNonNull(cm).getNetworkInfo(ConnectivityManager.TYPE_WIFI).isConnected() || cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).isConnected());
+		} catch (Exception e) {
+	  		e.printStackTrace();
+	  		return false;
+		}
 	  }
 	
 	
